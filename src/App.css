@@ -2,37 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #a2e4b863;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  align-items: center;
+  margin: 20px;
+  width: 400px;
+  height: auto;
+  border-color: black;
+  border-radius: 8px;
+  border: 1px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.548);
+  padding: 10px;
+  background-color: white;
+}
+
+.Card:hover {
+  box-shadow: 0px 1px 13px 0px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.Wallet-btn {
+  border-radius: 5px;
+  background-color: rgb(163, 163, 163);
+  text-decoration: none;
+  width: auto;
+  height: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border-color: transparent;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.548);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.Wallet-btn:hover {
+  box-shadow: 0px 1px 13px 0px rgb(0, 0, 0);
+}
+
+.Text-testnet-info {
+  color: grey;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 15px;
 }
