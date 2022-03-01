@@ -173,7 +173,7 @@ function App() {
             </strong>
           </p>
           <p className="Text-testnet-info">
-            Código disponible: contrato | front end{" "}
+            Código disponible: <a href="https://github.com/LaggerP/vote-solidity-example">Contrato</a> | <a href="https://github.com/LaggerP/vote-solidity-example-front">Front end</a>
           </p>
         </div>
       </header>
